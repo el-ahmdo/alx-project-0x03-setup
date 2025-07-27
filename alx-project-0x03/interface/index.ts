@@ -10,3 +10,6 @@ export interface ButtonProps {
 export interface LayoutProps {
   children: React.ReactNode;
 }
+export interface PageRouteProps {
+  pageRoute: string;
+}
